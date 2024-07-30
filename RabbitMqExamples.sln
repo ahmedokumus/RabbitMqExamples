@@ -5,9 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example1", "Example1", "{934A1245-39B5-4B81-AD25-1C297DBB74EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Publisher", "Example1\RabbitMq.Publisher\RabbitMq.Publisher.csproj", "{ECF57373-1C95-4DBC-8F93-111B06E6E5A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Publisher", "Example1\RabbitMq.Publisher\RabbitMq.Publisher.csproj", "{ECF57373-1C95-4DBC-8F93-111B06E6E5A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Consumer", "Example1\RabbitMq.Consumer\RabbitMq.Consumer.csproj", "{24A6F08A-C8D8-4EA2-A5C5-80457CAA6FB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Consumer", "Example1\RabbitMq.Consumer\RabbitMq.Consumer.csproj", "{24A6F08A-C8D8-4EA2-A5C5-80457CAA6FB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
