@@ -11,7 +11,7 @@ using IConnection connection = factory.CreateConnection();
 using IModel channel = connection.CreateModel();
 
 //Queue oluşturma
-channel.QueueDeclare(queue: "example-queue", exclusive: false);//Consumer'daki kuyruk publisher'daki kuyruk ile birebir aynı olmalıdır
+channel.QueueDeclare(queue: "example-queue", exclusive: false, durable: true);//Consumer'daki kuyruk publisher'daki kuyruk ile birebir aynı olmalıdır
 
 //Queue'dan mesaj okuma
 EventingBasicConsumer consumer = new(channel);
